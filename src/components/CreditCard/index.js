@@ -13,6 +13,10 @@ import {
   CardNumber,
   NameHeading,
   HolderName,
+<<<<<<< HEAD
+=======
+  HeadingSpan,
+>>>>>>> code updated
 } from './styledComponents'
 
 const CreditCard = () => {
@@ -30,8 +34,10 @@ const CreditCard = () => {
   return (
     <MainContainer>
       <LeftContainer>
-        <ContainerHeading>CREDIT CARD</ContainerHeading>
-        <ImageContainer>
+        <ContainerHeading>
+          <HeadingSpan>CREDIT CARD</HeadingSpan>
+        </ContainerHeading>
+        <ImageContainer data-testid="creditCard">
           <CardNumber>{cardNumber}</CardNumber>
           <NameHeading>CARDHOLDER NAME</NameHeading>
           <HolderName>{cardHolderName.toUpperCase()}</HolderName>

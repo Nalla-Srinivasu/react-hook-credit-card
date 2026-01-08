@@ -68,16 +68,17 @@ export const CardHolderNameInput = styled.input`
 export const ContainerHeading = styled.h1`
   color: #ffffff;
   font-family: 'Roboto';
-  display: inline-block;
-  &::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    width: 100%;
-    height: 4px;
-    background-color: #ffd773;
-  }
+  //   position: relative;
+  //   display: inline-block;
+  //   &::after {
+  //     content: '';
+  //     position: absolute;
+  //     left: 0;
+  //     bottom: -10px;
+  //     width: 100%;
+  //     height: 4px;
+  //     background-color: #ffd773;
+  //   }
 `
 
 export const HeadingSpan = styled.span`
@@ -86,9 +87,9 @@ export const HeadingSpan = styled.span`
   &::after {
     content: '';
     position: absolute;
-    left: 0;
+    left: 5px;
     bottom: -10px;
-    width: 100%;
+    width: 8ch;
     height: 4px;
     background-color: #ffd773;
   }
@@ -104,16 +105,17 @@ export const ImageContainer = styled.div`
 export const CardNumber = styled.p`
   color: #ffffff;
   font-family: 'Roboto';
+  font-size: 35px;
   position: relative;
   padding-left: 50px;
-  padding-top: 50px;
+  padding-top: 45px;
 `
 
 export const NameHeading = styled.p`
   color: #ffffff;
   font-family: 'Roboto';
   font-size: 15px;
-  position: relative;
+  position: absolute;
   padding-left: 50px;
 `
 
